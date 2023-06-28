@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" modified="2023-06-21T22:27:12.316Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="ZbGB4WhWOeKVSmJctMCV" version="21.3.8" type="device">
+  <diagram name="Página-1" id="Gio7KG2NXPK5Yx0mutEf">
+    <mxGraphModel dx="1050" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1FsUyw3Njqve6poEUlqJ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1FsUyw3Njqve6poEUlqJ-1" target="1FsUyw3Njqve6poEUlqJ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1FsUyw3Njqve6poEUlqJ-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Client&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1FsUyw3Njqve6poEUlqJ-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1FsUyw3Njqve6poEUlqJ-2" target="1FsUyw3Njqve6poEUlqJ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1FsUyw3Njqve6poEUlqJ-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;AccountBank&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1FsUyw3Njqve6poEUlqJ-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1FsUyw3Njqve6poEUlqJ-4" target="1FsUyw3Njqve6poEUlqJ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1FsUyw3Njqve6poEUlqJ-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Credit&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1FsUyw3Njqve6poEUlqJ-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;CreditCard&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1FsUyw3Njqve6poEUlqJ-8" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.application" vertex="1" parent="1">
+          <mxGeometry x="180" y="80" width="50" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="1FsUyw3Njqve6poEUlqJ-9" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.application" vertex="1" parent="1">
+          <mxGeometry x="385" y="80" width="50" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="1FsUyw3Njqve6poEUlqJ-10" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.application" vertex="1" parent="1">
+          <mxGeometry x="490" y="273" width="50" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="1FsUyw3Njqve6poEUlqJ-11" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.application" vertex="1" parent="1">
+          <mxGeometry x="490" y="413" width="50" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="1FsUyw3Njqve6poEUlqJ-15" value="Gestión de clientes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="180" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1FsUyw3Njqve6poEUlqJ-16" value="Gestión de cuentas bancarias" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="135" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1FsUyw3Njqve6poEUlqJ-17" value="Gestión de productos de crédito" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="275" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1FsUyw3Njqve6poEUlqJ-18" value="Gestión de tarjetas de crédito" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="180" y="413" width="180" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
