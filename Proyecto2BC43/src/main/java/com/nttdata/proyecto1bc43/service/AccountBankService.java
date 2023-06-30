@@ -14,4 +14,5 @@ public interface AccountBankService {
     Completable deleteAccountBank(String numero);
     Flowable<AccountBank> getAllAccountBanks();
    // Flowable<AccountBank> getAccountBanksByClientId(String clientId);
+   //Single<AccountBank> createAccountBank(AccountBank accountBank);
 }

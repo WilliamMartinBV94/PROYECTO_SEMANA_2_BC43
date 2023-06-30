@@ -2,6 +2,7 @@ package com.nttdata.proyecto1bc43.service;
 
 
 
+import com.nttdata.proyecto1bc43.exception.MinimumOpeningAmountException;
 import com.nttdata.proyecto1bc43.model.AccountBank;
 import com.nttdata.proyecto1bc43.model.Client;
 import com.nttdata.proyecto1bc43.repository.AccountBankRepository;
@@ -26,7 +27,22 @@ public class AccountBankServiceImpl implements AccountBankService {
 
     @Override
     public Single<AccountBank> createAccountBank(AccountBank accountBank) {
-        return Single.fromCallable(() -> accountBankRepository.save(accountBank));
+        return Single.fromCallable(() -> {
+                    // Validar monto mínimo de apertura
+                    if (accountBank.getBalance().compareTo(accountBank.getMinimumOpeningAmount()) < 0) {
+                        throw new MinimumOpeningAmountException("El monto mínimo de apertura no se ha alcanzado.");
+                    }
+
+                    // Lógica para crear la cuenta bancaria
+                    return accountBankRepository.save(accountBank);
+                })
+                .onErrorResumeNext(error -> {
+                    if (error instanceof MinimumOpeningAmountException) {
+                        return Single.error(error); // Propagar el error de monto mínimo de apertura
+                    } else {
+                        return Single.error(new RuntimeException("Error al crear la cuenta bancaria")); // Otros errores
+                    }
+                });
     }
 
     @Override
@@ -54,5 +70,6 @@ public class AccountBankServiceImpl implements AccountBankService {
     public Flowable<AccountBank> getAccountBanksByClientId(String clientId) {
         return accountBankRepository.getAccountBanksByClientId(clientId);
     }*/
+
 }
 
