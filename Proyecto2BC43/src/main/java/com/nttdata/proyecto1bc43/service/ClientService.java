@@ -13,4 +13,6 @@ public interface ClientService {
     Observable<String> obtenerCuentasBancarias(String clientId);
     Observable<String> obtenerProductosCredito(String clientId);
     Observable<String> obtenerTarjetasCredito(String clientId);
+
+
 }

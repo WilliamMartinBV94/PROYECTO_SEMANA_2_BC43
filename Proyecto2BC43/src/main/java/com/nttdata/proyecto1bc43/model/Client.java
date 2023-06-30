@@ -13,4 +13,13 @@ public class Client {
     private List<String> productosCredito;
     private List<String> tarjetasCredito;
 
+
+    public boolean esClientePersonalVIP() {
+        return tipo.equals("Personal") && nombre.equals("VIP");
+    }
+
+    public boolean esClienteEmpresarialPYME() {
+        return tipo.equals("Empresarial") && nombre.equals("PYME");
+    }
+
 }
